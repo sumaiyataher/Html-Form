@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins&family=Rajdhani:wght@300;400;500;600;700&family=Roboto&display=swap');
+  
+
+/* **********************************************
+************** Global Css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1.h2,h3,h4.h5.h6{
+      font-family: "Rajdhani", sans-serif;
+}
+
+
+ul,li{
+    margin:0;
+    padding: 0;
+}
+
+a, a:hover{
+text-decoration: none;
+}
+
+.form-section{
+    width: 100%;
+    background: url(../image/road1.webp) center center no-repeat;
+    background-position: cover;
+    height: 100vh;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-section .inner-section{
+    width:80%;
+    background-color: #fff;
+    display: flex;
+    padding: 50px;
+    border-radius: 30px 0px;
+    opacity: 0.85;
+}
+
+.form-section .inner-section .right .name .fname {
+    margin-right: 10px;
+   
+}
+
+.form-section .inner-section .right .name .fname .lname:hover{
+  border: 1px solid #0000ff;
+   
+}
+
+.left{
+flex-basis: 45%;
+}
+
+.right{
+flex-basis: 55%;
+}
+
+.inner-section .right h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inner-section .right .name input{
+width: 48%!important;
+}
+
+.condition input{
+    width: auto !important;
+    margin-right: 5px;
+}
+input::placeholder{
+    font-family: popins;
+}
+
+input[type="submit"]{
+    background-color:#0000ff;
+    color: #fff;
+    border: 1px solid #0000ff;
+    margin: 20px 0px;
+}
+
+input[type="submit"]:hover{
+    background-color:#0000ff00;
+    color: #0000ff;
+   
+}
+
+
+input[type="date"], input[type="submit"]{
+    font-family: popins;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+select, textarea{
+    font-family: popins;
+}
